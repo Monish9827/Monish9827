@@ -1,0 +1,74 @@
+/* Basic C++ Programming Check With This Small Mini Project 
+while(true) define's an infinite loop we use it here because we do not want the program to terminate after one input i.e it's life span become's infinite*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int c=0;
+    int t=0;
+    int b=0;
+    int amount=0;
+    int total=0;
+    int op;
+    while(true)
+    {
+    cout<<"Press 1 To Get The Car's "<<endl;
+    cout<<"Press 2 To Get The Taxi's "<<endl;
+    cout<<"Press 3 To Get The Bus "<<endl;
+    cout<<"Press 4 To Get The Total "<<endl;
+    cout<<"Press 5 to Delete All Records "<<endl;
+    cout<<"------------------------------"<<endl;
+    cin>>op;
+    switch(op){
+    case 1:
+        if(total<=50){
+            amount = amount+200;
+            total=total+1;
+            c=c+1;
+        }else{
+        cout<<"The Parking Lot is Full"<<endl;
+        }
+    break;
+    case 2:
+        if(total<=50){
+            amount = amount+500;
+            total=total+1;
+            t=t+1;
+        }else{
+        cout<<"The Parking Lot is Full"<<endl;
+        }
+    break;
+    case 3:
+        if(total<=50){
+            amount = amount+1000;
+            total=total+1;
+            b=b+1;
+        }else{
+        cout<<"The Parking Lot is Full"<<endl;
+        }
+    break;
+    case 4:
+        cout<<"-----------------------------"<<endl;
+        cout<<"The Total Car's In The Lot are "<<c<<endl;
+        cout<<"The Total Taxi's in the lot are "<<t<<endl;
+        cout<<"The Total Bus are "<<b<<endl;
+        cout<<"The Total Amount Collected is "<<amount<<endl;
+        cout<<"-----------------------------"<<endl;
+    break;
+    case 5:
+        c=0;
+        b=0;
+        t=0;
+        amount=0;
+        total=0;
+        cout<<"--------------------------------------------------"<<endl;
+        cout<<"ALL RECORD'S HAS BEEN DELETED"<<endl;
+        cout<<"--------------------------------------------------"<<endl;
+    break;
+    default:
+        cout<<"The Input Is Wrong"<<endl;
+    }
+    }
+}
