@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Monish Keshavan A.K.A @Monish9827
 - 👀 I’m interested in C++,Java.
 - 🌱 I’m currently learning Java.
-- 💞️ I’m looking to collaborate on begineer friendly project's as i am a amateur coder.
+- 💞️ I’m looking to collaborate on beginer friendly project's as i am a amateur coder.
 - 📫 How to reach me monish9827@gmail.com
 
 <!---
